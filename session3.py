@@ -112,7 +112,7 @@
 #         print(line[:-1])
 
 
-with open("my_file.txt", "a") as file:
-    for i in range(2):
-        name = input('enter a name: ')
-        file.write(name + '\n')
+# with open("my_file.txt", "a") as file:
+#     for i in range(2):
+#         name = input('enter a name: ')
+#         file.write(name + '\n')
