@@ -19,14 +19,29 @@
 # my_list = [1,2,"a", [1,2]]
 
 
-def total_amount(l):
-    total = 0
-    for number in l:
-        if number % 2 != 0:
-            total += number
+# def total_amount(l):
+#     total = 0
+#     for number in l:
+#         if number % 2 != 0:
+#             total += number
 
-    return total
+#     return total
 
 
-res = total_amount([2, 1, 3, 4])
-print(res)
+# res = total_amount([2, 1, 3, 4])
+# print(res)
+
+
+# numbers = [1,2,2,3,4,4,4]
+
+# numbers = list(set(numbers))
+# if 4 in numbers:
+#     numbers.remove(4)
+
+# print(numbers)
+
+
+# while 4 in numbers:
+#     numbers.remove(4)
+
+# print(numbers)
