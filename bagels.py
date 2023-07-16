@@ -44,8 +44,10 @@ number_of_guesses = 1
 while number_of_guesses < 11:
     print(f"guess # {number_of_guesses}")
     user_guess = ""
-    while len(user_guess) != 3:
+    while len(user_guess) != 3 or not user_guess.isdecimal():
+
         user_guess = input("enter a three digits number: ")
+
     help_result = user_help(user_guess, secret_number)
     print(help_result)
     if secret_number == user_guess:
